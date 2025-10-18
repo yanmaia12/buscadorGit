@@ -30,5 +30,5 @@ Para executar este projeto na sua máquina, siga os passos abaixo.
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/SEU-NOME/SEU-PROJETO.git
+git clone https://github.com/yanmaia12/buscadorGit.git
 cd nome-do-seu-projeto
