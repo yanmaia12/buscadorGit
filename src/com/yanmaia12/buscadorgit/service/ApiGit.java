@@ -41,8 +41,7 @@ public class ApiGit {
 
         Gson gson = new Gson();
         GitUser gitUser = gson.fromJson(response.body(), GitUser.class);
-        return "Username: %s,\nNome: %s,\nLocalização: %s\nEmail: %s\nFollowers: %d\nFollowing: %d".formatted(gitUser.login(), gitUser.name(), gitUser.location(), gitUser.email(), gitUser.followers(), gitUser.following());
-
+        return "Username: %s,\nNome: %s,\nRepositórios postados: %d\nLocalização: %s\nEmail: %s\nFollowers: %d\nFollowing: %d".formatted(gitUser.login(), gitUser.name(), gitUser.public_repos(), gitUser.location(), gitUser.email(), gitUser.followers(), gitUser.following());
     }
 
 }

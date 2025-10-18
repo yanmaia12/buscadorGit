@@ -7,7 +7,7 @@ Este projeto foi desenvolvido como um exercício prático para aprender a consum
 ## Funcionalidades
 
 * Busca de dados de um usuário pelo seu `username`.
-* Exibe informações como nome, login, localização. email (se for público), seguidores e quem está seguindo.
+* Exibe informações como nome, login, número de repositórios postados, localização, email (se for público), seguidores e quem está seguindo.
 * Autenticação segura via API Token para garantir um limite maior de requisições.
 * Tratamento de erros customizado para casos em que o usuário não é encontrado (HTTP 404).
 * Uso de Variáveis de Ambiente para proteger a chave da API, seguindo as melhores práticas de segurança.
