@@ -31,4 +31,4 @@ Para executar este projeto na sua máquina, siga os passos abaixo.
 
 ```bash
 git clone https://github.com/yanmaia12/buscadorGit.git
-cd nome-do-seu-projeto
+cd buscadorGit
